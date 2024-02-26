@@ -1,0 +1,38 @@
+
+
+.filterTab {
+    margin-bottom: 1rem;
+    text-align: center;
+ 
+}
+
+.filterTab label {
+    font-size: 1.2rem;
+    color:#353232;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    margin-right: 0.5rem;
+    
+}
+
+.filterDropdown {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.filterDropdown:hover {
+    border-color: #007bff;
+  
+    transform: scale(1.02);
+  
+}
+
+.filterDropdown:focus {
+    outline: none;
+    border-color: #007bff;
+
+}
